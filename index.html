@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="visor-id" class="visor">
+            0
+        </div>
+
+        <div class="container-teclas">
+            <div onclick="teclaC()" class="tecla-esp" id="tecla-c">C</div>
+            <div onclick="teclaCLM()" class="tecla-esp" id="tecla-clm">CLM</div>
+            <div onclick="toggleSinal()" class="tecla-esp" id="tecla-sinal">+/-</div>
+            <div onclick="teclaRaizQuadrada()" class="tecla-esp" id="tecla-raiz">√</div>
+            <div onclick="teclaRM()" class="tecla-esp" id="tecla-rm">RM</div>
+            <div onclick="teclaMmais()" class="tecla-esp" id="tecla-mais">M+</div>
+            <div onclick="teclaMmenos()" class="tecla-esp" id="tecla-menos">M-</div>
+            <div onclick="defOp('/')" class="tecla-esp" id="tecla-divisao">/</div>
+            <div onclick="digito('7')" class="tecla" id="tecla-7">7</div>
+            <div onclick="digito('8')" class="tecla" id="tecla-8">8</div>
+            <div onclick="digito('9')" class="tecla" id="tecla-9">9</div>
+            <div onclick="defOp('*')" class="tecla-esp" id="tecla-multiplicacao">x</div>
+            <div onclick="digito('4')" class="tecla" id="tecla-4">4</div>
+            <div onclick="digito('5')" class="tecla" id="tecla-5">5</div>
+            <div onclick="digito('6')" class="tecla" id="tecla-6">6</div>
+            <div onclick="defOp('-')" class="tecla-esp" id="tecla-subtracao">-</div>
+            <div onclick="digito('1')" class="tecla" id="tecla-1">1</div>
+            <div onclick="digito('2')" class="tecla" id="tecla-2">2</div>
+            <div onclick="digito('3')" class="tecla" id="tecla-3">3</div>
+            <div onclick="defOp('+')" class="tecla-esp" id="tecla-soma">+</div>
+            <div onclick="digito('.')" class="tecla" id="tecla-ponto">.</div>
+            <div onclick="digito('0')" class="tecla" id="tecla-0">0</div>
+            <div onclick="calcularPorcentagem()" class="tecla-esp" id="tecla-porcentagem">%</div>
+            <div onclick="igual()" class="tecla-esp" id="tecla-igual">=</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

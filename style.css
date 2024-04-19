@@ -1,0 +1,85 @@
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    width: 450px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 30px 20px rgb(0, 0, 0, 0.7),
+        inset -6px -6px 6px 6px rgb(0, 0, 0, 0.4);
+    
+}
+
+.container-teclas {
+    width: 95%;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.7fr;
+    border: 6px solid gray;
+    border-radius: 20px;
+}
+
+.tecla {
+    background-color: white;
+    color: steelblue;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 1.8em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 2px 2px 3px 3px rgb(0, 0, 0, 0.5);
+}
+
+.tecla-esp {
+    background-color: steelblue;
+    color: white;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 1.8em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 2px 2px 3px 3px rgb(0, 0, 0, 0.9);
+}
+
+.tecla:active {
+    padding-top: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 6px;
+    box-shadow: 1px 1px 2px 2px rgb(0, 0, 0, 0.7);
+}
+
+.tecla-esp:active {
+    padding-top: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 6px;
+    box-shadow: 1px 1px 2px 2px rgb(0, 0, 0, 1);
+}
+
+
+.visor {
+    width: 85%;
+    background-color: black;
+    color: rgb(144, 238, 144, 0.7);
+    margin: auto;
+    padding: 8px;
+    padding-right: 35px;
+    font-size: 3.5em;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 8px white;
+    border: 8px solid steelblue;
+    border-radius: 15px;
+    box-shadow: inset 10px 20px 30px 10px rgb(255, 255, 255, 0.3);
+    text-align: right;
+}
